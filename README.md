@@ -9,7 +9,7 @@ TENANT=<tenant>
 DOCKER_REPO_URL=registry.cp.kpn-dsh.com/$(TENANT)
 VERSION:=1
 tagname=example-kafkajs
-tenantuserid=<userid>
+tenantuserid=<uid>
 
 # 2 ) Uitvoeren
 make all
@@ -27,5 +27,5 @@ make all
 	"instances": 1,
 	"singleInstance": false,
 	"needsToken": true,
-	"user": "<userid>:<userid>"
+	"user": "<uid>:<uid>"
 }
