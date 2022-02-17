@@ -1,7 +1,3 @@
-# Algemeen
-
-- docker image repo : https://registry.cp.kpn-dsh.com/
-
 # 1 ) Makefile aanpassen
 
 PLATFORM=poc
